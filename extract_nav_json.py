@@ -19,4 +19,4 @@ for line in lines:
 with open("nav_data.json", "w") as f:
     json.dump(data, f, indent=2)
 
-print("✅ Data saved to nav_data.json")
+print("Data saved to nav_data.json")
