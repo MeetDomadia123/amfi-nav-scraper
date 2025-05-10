@@ -12,4 +12,4 @@ NF >= 5 && $1 ~ /^[0-9]+$/ {
     print $4, $5;
 }' > "$OUTPUT_TSV"
 
-echo "✅ Scheme Name and Asset Value saved to $OUTPUT_TSV"
+echo "Scheme Name and Asset Value saved to $OUTPUT_TSV"
